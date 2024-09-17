@@ -32,7 +32,7 @@ number = random.randint(1, 100)
 
 attempt = 0
 
-while attempt <= difficulties[difficulty]["chances"]:
+while attempt < difficulties[difficulty]["chances"]:
     guess = int(input("Enter your guess: "))
     attempt += 1
     if guess > number:
@@ -44,3 +44,5 @@ while attempt <= difficulties[difficulty]["chances"]:
     elif guess == number:
         print(f"Congratulations! You guessed the correct number in {attempt} attempts.\n")
         break
+else:
+    print(f"You used all chances. The number was {number}")
