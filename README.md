@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is a sample solution to [number-guessing-game](https://roadmap.sh/projects/number-guessing-game) challenge by [roadmap.sh](roadmap.sh)
 
-# HOW TO RUN
+## HOW TO RUN
 
 Run on terminal:
 
@@ -11,6 +11,6 @@ Run on terminal:
 python3 game.py
 ```
 
-# GAME EXAMPLE
+## GAME EXAMPLE
 
 ![game_pic](game_pic.png)
